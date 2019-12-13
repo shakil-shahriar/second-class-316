@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: url(../img/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 604px;
+    height: 475px;
+    margin: 6% 15%;
+}
+.login-section{
+    background-color: #fffcdc33;
+    padding: 5px;
+}
+.login-section img {
+    padding: 1px;
+    margin: -38px;
+}
+.login-section h2 {
+    font-size: 27px;
+    color: #36457dc7;
+    margin: 2px 45px;
+    padding: 1px 35px;
+}
+.form-control {
+    width: 53%;
+    padding: 5px 12px;
+    margin: 8px 103px 0px;
+    background-color: initial;
+}
+.button {
+    margin: 13px auto;
+    display: block;
+    text-transform: uppercase;
+    padding: 9px;
+    color: #36457dc7;
+    background-color: lavender;
+    font-size: medium;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+.button:hover{
+        box-shadow: 5px 5px;
+    cursor: pointer;
+}
+a {
+    padding: 15px;
+    color: snow;
+    font-family: cursive;
+    font-size: smaller;
+}
+.forget {
+    color: burlywood;
+    padding: 40px;
+}
